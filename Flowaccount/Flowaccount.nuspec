@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Flowaccount</id>
+    <version>1.0.0</version>
+    <title>Flowaccount</title>
+    <authors>wickstargazer</authors>
+    <owners>wickstargazer</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Flowaccount</description>
+    <releaseNotes>Initiation.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Connect to different services provided by FlowAccount</tags>
+  </metadata>
+	<files>
+		<file src="bin\release\**.dll" target="lib\net40\" />
+    <file src="bin\release\**.dll" target="lib\net45\" />
+    <file src="bin\release\**.dll" target="lib\net452\" />
+    <file src="bin\release\**.dll" target="lib\net461\" />
+	</files>
+</package>

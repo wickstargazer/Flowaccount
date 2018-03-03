@@ -31,11 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DiffieHellman, Version=0.0.0.0, Culture=neutral">
-      <HintPath>..\packages\DiffieHellman.1.0.0\lib\net40\DiffieHellman.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\..\Flowaccount.UI\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Org.Mentalis.Security, Version=1.0.13.715, Culture=neutral">
       <HintPath>..\packages\Org.Mentalis.Security.1.0.0\lib\net40\Org.Mentalis.Security.dll</HintPath>
@@ -127,6 +124,7 @@
     <Compile Include="Models\Invoice.cs" />
     <Compile Include="Models\Media.cs" />
     <Compile Include="Models\OutstandingDocument.cs" />
+    <Compile Include="Models\PackageList.cs" />
     <Compile Include="Models\PartialPayment\DocumentPartialPaymentModel.cs" />
     <Compile Include="Models\ProductCategory.cs" />
     <Compile Include="Models\ProductInventory.cs" />
